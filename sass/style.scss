@@ -18,17 +18,68 @@ $transition: all 1s;
 
  body {
      margin: 0;
-     font-size: 14px;
+     font-size: 16px;
      line-height: 1.7;
      color: $color-text;
 }
 
 .container {
-    max-width: 940px;
+    max-width: 1140px;
     padding: 0 20px;
     margin: 0 auto;
+    position: relative;
 }
 
 section {
     padding: 120px 0;
+}
+
+/* Splash */
+
+.wrapper {
+  background-image: url('/images/bg-image.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Navigation */
+
+.logo {
+  position: absolute;
+  left: 20px;
+  padding: 50px 0;
+}
+
+.navigation {
+  padding: 50px 0;
+  font-family: $font-header;
+  font-weight: 600;
+  position: absolute;
+  right: 20px;
+
+  ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 40px 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: $color-main;
+    }
+  }
 }
