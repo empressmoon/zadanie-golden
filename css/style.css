@@ -1,0 +1,23 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #777777;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 120px 0;
+}
+/*# sourceMappingURL=style.css.map */
