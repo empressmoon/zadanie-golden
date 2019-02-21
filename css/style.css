@@ -8,6 +8,8 @@ body {
   margin: 0;
   font-size: 16px;
   color: #777777;
+  font-family: "Noto Serif", serif;
+  text-align: center;
 }
 
 .container {
@@ -55,7 +57,6 @@ section {
 
 .page-welcome-small {
   font-size: 40px;
-  font-family: "Noto Serif", serif;
   color: #fff;
   font-style: italic;
   font-weight: 200;
@@ -89,7 +90,19 @@ section {
 
 .btn:hover {
   background-color: inherit;
-  border: 3px solid #fed136;
+  border: 2px solid #fed136;
+}
+
+.section-title {
+  font-size: 40px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px 0;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-weight: 200;
 }
 
 /* Navigation */
@@ -134,6 +147,42 @@ section {
 
 .navigation a:hover {
   color: #fed136;
+}
+
+/* Service */
+.icon-wrapper {
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.col-md-4 {
+  padding: 10px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.service-name {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+.service-description {
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
 }
 
 /* Media */
