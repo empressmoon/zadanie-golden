@@ -109,8 +109,6 @@ section {
 .splash .row {
   position: absolute;
   z-index: 2;
-  -ms-flex-align: baseline;
-      align-items: baseline;
   -ms-flex-pack: justify;
       justify-content: space-between;
   max-width: 1140px;
@@ -121,6 +119,7 @@ section {
 
 .splash .row .col-md-10 {
   text-align: right;
+  margin-top: 8px;
 }
 
 .navigation {
@@ -260,6 +259,9 @@ footer ul li i:hover {
   footer {
     margin: 0;
   }
+  footer .row {
+    margin: 20px 0 0 0;
+  }
   .copyright {
     -ms-flex-order: 2;
         order: 2;
@@ -296,6 +298,43 @@ footer ul li i:hover {
     font-size: 14px;
     padding: 10px 24px;
     height: auto;
+  }
+  .splash .row {
+    margin-top: 20px;
+  }
+  .splash .row .col-md-10 {
+    text-align: center;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .splash .row {
+    padding: 0 20px;
+  }
+  footer .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  footer .row .footer-text {
+    text-align: center;
+  }
+  footer .row .col-md-4 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
