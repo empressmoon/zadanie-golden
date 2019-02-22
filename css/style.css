@@ -213,27 +213,43 @@ section {
   margin: 0;
 }
 
-/* Media */
-/*
-
-@media (max-width: 767px) {
-
-  .logo {
-    padding: 20px 0 0 0;
-  }
-  .navigation {
-    padding: 0;
-
-    ul {
-      padding: 20px 0 0 0;
-    }
-
-    li {
-     margin: 0;
-     padding: 0 6px;
-    }
-  }
-
+/* Footer */
+.footer-text {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #222222;
+  text-align: left;
 }
-*/
+
+footer .row {
+  margin: 40px 0;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 0;
+  margin: 0 5px;
+}
+
+footer ul li i {
+  font-size: 22px;
+  color: #ffffff;
+  background: #222222;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  padding: 9px;
+}
+
+footer ul li i:hover {
+  background: #fed136;
+}
 /*# sourceMappingURL=style.css.map */
